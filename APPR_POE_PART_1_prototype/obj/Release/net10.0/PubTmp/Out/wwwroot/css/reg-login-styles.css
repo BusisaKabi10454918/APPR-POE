@@ -1,0 +1,90 @@
+﻿@import url(~/css/font-imports.css);
+
+body {
+    font-family: 'TradeGothicLT', sans-serif;
+    background-color: #203f1b;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.logo img {
+    height: 111px;
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 100vw;
+    padding: 10px 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    text-decoration: none;
+    text-decoration-color: black;
+    justify-content: space-around;
+    color: black;
+    margin: 5px;
+}
+
+h1 {
+    font-family: 'TradeGothicLT', sans-serif;
+    color: #b4b4b4;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    width:  400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border-radius: 35px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+input {
+    color: black;
+    background-color: #d9d9d9;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 300px;
+}
+
+input::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+button {
+    background-color: #d9d9d9;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}

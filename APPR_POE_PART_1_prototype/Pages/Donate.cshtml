@@ -1,0 +1,54 @@
+﻿@page
+@model APPR_POE_PART_1_prototype.Pages.DonateModel
+@{
+    ViewData["Title"] = "Donate";
+}
+<head>
+    <link href="~/css/reg-login-styles.css" rel="stylesheet">
+    <link href="~/favicon.ico" rel="icon" type="image/x-icon">
+
+    <nav>
+        <div class="logo">
+
+            <a asp-page="/Index">
+                <img src="~/images/GiftofTheGivers_logo-1458481640.png" />
+            </a>
+
+        </div>
+        <div class="nav-links">
+            <a asp-page="/Index">Home</a>
+            <a asp-page="/About">About Us</a>
+            <a asp-page="/Login">Volunteer</a>
+            <a asp-page="/Donate">Donate</a>
+            <a asp-page="/Contact">Contact Us</a>
+        </div>
+    </nav>
+</head>
+<body>
+    <div class="container">
+        <form method="post">
+
+            <input type="radio" name="currency" value="USD" required>(USD) Dollars</input>
+            <input type="radio" name="currency" value="ZAR">(ZAR) Rands</input>
+            <input type="radio" name="currency" value="EUR">(EUR) Euroes</input>
+
+            <label for="donation-amount">Donation Amount:</label>
+            <input type="number" name="donation-amount" placeholder="Please donate within your means" min="1" required/>
+
+            <input type="submit"/>
+        </form>
+
+        @{
+            @if (Model.error_message != "Please enter a valid number")
+            {
+                <p style="color: black">@Model.error_message</p>
+            }
+            else
+            {
+                <p style="color: black">@Model.error_message</p>
+            }
+        }
+    </div>
+
+    
+</body>

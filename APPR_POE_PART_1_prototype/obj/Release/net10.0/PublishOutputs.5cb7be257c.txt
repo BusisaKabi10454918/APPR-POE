@@ -1,0 +1,7 @@
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\bin\Release\net10.0\publish\APPR_POE_PART_1_prototype.exe
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\bin\Release\net10.0\publish\appsettings.Development.json
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\bin\Release\net10.0\publish\appsettings.json
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\bin\Release\net10.0\publish\APPR_POE_PART_1_prototype.dll
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\bin\Release\net10.0\publish\APPR_POE_PART_1_prototype.deps.json
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\bin\Release\net10.0\publish\APPR_POE_PART_1_prototype.runtimeconfig.json
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\bin\Release\net10.0\publish\APPR_POE_PART_1_prototype.pdb

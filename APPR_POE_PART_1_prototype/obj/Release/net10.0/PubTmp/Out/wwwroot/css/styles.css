@@ -1,0 +1,78 @@
+﻿@import url(~/css/font-imports.css);
+body {
+    font-family: 'TradeGothicLt', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2b2c28;
+}
+
+.logo img{
+    height: 111px;
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 100vw;
+    padding: 10px 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    text-decoration: none;
+    text-decoration-color: black;
+    justify-content: space-around;
+    color: black;
+    margin: 5px;
+}
+
+.seperator {
+    width: 430px;
+    height: 5px;
+    background-color: black;
+    margin: auto;
+    width: 50%;
+}
+
+.page_banner{
+    background: url(/images/placeholder_banner.png);
+    height: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    align-self: center;
+}
+
+.page_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.page_content img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.content-container {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 5%;
+    justify-content: space-between;
+}
+
+.content_type_A{
+    display:inline-flex;
+    flex-direction: column;
+}
+
+.content_type_B{
+    display: inline-flex;
+    flex-direction:column;
+}

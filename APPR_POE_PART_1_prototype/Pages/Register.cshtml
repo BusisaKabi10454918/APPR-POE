@@ -1,0 +1,62 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+<head>
+    <link href="~/css/reg-login-styles.css" rel="stylesheet">
+    <link href="~/favicon.ico" rel="icon" type="image/x-icon">
+
+    <nav>
+        <div class="logo">
+
+            <a asp-page="/Index">
+                <img src="~/images/GiftofTheGivers_logo-1458481640.png" />
+            </a>
+
+        </div>
+        <div class="nav-links">
+            <a asp-page="/Index">Home</a>
+            <a asp-page="/About">About Us</a>
+            <a asp-page="/Login">Volunteer</a>
+            <a asp-page="/Donate">Donate</a>
+            <a asp-page="/Contact">Contact Us</a>
+        </div>
+    </nav>
+</head>
+<body class="reg-login-bodies">
+    <div class="container">
+        <form method="post">
+
+            <label for="firstname">First Name:</label><br />
+            <input type="text" placeholder="Please enter your first name" name="firstname" required /><br />
+
+            <label for="lastname">Last Name:</label><br />
+            <input type="text" placeholder="Please enter your last name" name="lastname" required /><br />
+            
+            <label for="email">Email:</label><br />
+            <input type="email" placeholder="Please enter your email" name="email" required /><br />
+
+            <label for="username">Username:</label><br />
+            <input type="text" placeholder="Please enter a username" name="username" required /><br />
+    
+            <label for="password">Password:</label><br />
+            <input type="password" placeholder="Please enter your password" name="password" required /><br />
+
+            <label for="confirm-password">Confirm Password:</label><br />
+            <input type="password" placeholder="Please confirm your password" name="confirm-password" required /><br />
+
+            <input type="checkbox" name="role" value="volunteer" required>Register as a Volunteer</input>
+            <input type="checkbox" name="role" value="repeat-donor">Register as a repeat donor</input>
+
+            <input type="submit" />
+        </form>
+
+        @{
+            @if (Model.error_message != "Please enter matching passwords")
+                {
+                    <p>@Model.error_message</p>
+                }
+            }
+    </div>
+</body>
