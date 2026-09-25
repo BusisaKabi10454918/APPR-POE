@@ -20,10 +20,10 @@ jobs:
         dotnet-version: '10.0.400'   
         
     - name: Restore dependencies
-      run: dotnet restore APPR_POE_PART_1_prototype.slnx
+      run: dotnet restore APPR_POE_PART_1_prototype.csproj
 
     - name: Build solution
-      run: dotnet build APPR_POE_PART_1_prototype.slnx --configuration Release --no-restore
+      run: dotnet build APPR_POE_PART_1_prototype.csproj --configuration Release --no-restore
 
     - name: Run tests
-      run: dotnet test APPR_POE_PART_1_prototype.slnx --configuration Release --no-build --verbosity normal
+      run: dotnet test APPR_POE_PART_1_prototype.csproj --configuration Release --no-build --verbosity normal
