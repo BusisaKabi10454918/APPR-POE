@@ -19,11 +19,11 @@ pool:
 - task: NuGetCommand@2
   inputs:
     command: 'restore'
-    restoreSolution: '**/APPR_POE_PART_1_prototype.slnx'
+    restoreSolution: '**/APPR_POE_PART_1_prototype/APPR_POE_PART_1_prototype.csproj'
 
 - task: VSBuild@1
   inputs:
-    solution: '**/APPR_POE_PART_1_prototype.slnx'
+    solution: '**/APPR_POE_PART_1_prototype/APPR_POE_PART_1_prototype.csproj'
     msbuildArgs: '/p:Configuration=Release'
     platform: 'Any CPU'
     configuration: 'Release'
