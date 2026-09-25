@@ -1,0 +1,29 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: 'windows-latest'
+
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '10.0.400'
+
+- task: NuGetToolInstaller@1
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/APPR_POE_PART_1_prototype.slnx'
+
+- task: VSBuild@1
+  inputs:
+    solution: '**/APPR_POE_PART_1_prototype.slnx'
+    msbuildArgs: '/p:Configuration=Release'
+    platform: 'Any CPU'
+    configuration: 'Release'
