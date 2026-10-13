@@ -21,8 +21,14 @@ C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Deb
 C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\scopedcss\bundle\APPR_POE_PART_1_prototype.styles.css
 C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\scopedcss\projectbundle\APPR_POE_PART_1_prototype.bundle.scp.css
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\aay5jpwnzt-{0}-inizdx6pr7-inizdx6pr7.gz
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\t9sigqljr7-{0}-ajnxe7agyo-ajnxe7agyo.gz
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\3xjs67ah3s-{0}-ngqy5iqcck-ngqy5iqcck.gz
 C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\wd8s14p3ny-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\6ixkabl6bz-{0}-swoa6lu9qx-swoa6lu9qx.gz
 C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\xo696ktsgd-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\ko7da67vya-{0}-chfx896uih-chfx896uih.gz
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\7sl5eb0sld-{0}-2q7g7qc6rm-2q7g7qc6rm.gz
 C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\9px3frkqjm-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\1vrv94g2yt-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\ll5mrfxbds-{0}-c2jlpeoesf-c2jlpeoesf.gz
@@ -96,9 +102,4 @@ C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Deb
 C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\APPR_POE_PART_1_prototype.pdb
 C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\APPR_POE_PART_1_prototype.genruntimeconfig.cache
 C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\ref\APPR_POE_PART_1_prototype.dll
-C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\ko7da67vya-{0}-chfx896uih-chfx896uih.gz
-C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\7sl5eb0sld-{0}-2q7g7qc6rm-2q7g7qc6rm.gz
-C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\t9sigqljr7-{0}-ajnxe7agyo-ajnxe7agyo.gz
-C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\3xjs67ah3s-{0}-ngqy5iqcck-ngqy5iqcck.gz
-C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\6ixkabl6bz-{0}-swoa6lu9qx-swoa6lu9qx.gz
-C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\compressed\aay5jpwnzt-{0}-inizdx6pr7-inizdx6pr7.gz
+C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\obj\Debug\net10.0\APPR_POE.E37FE7D8.Up2Date

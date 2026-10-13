@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "iryERX6YzH4=",
+  "dgSpecHash": "tNURBzjmaCY=",
   "success": true,
   "projectFilePath": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\APPR_POE_PART_1_prototype.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\SBKan\\.nuget\\packages\\donationlib\\1.0.0\\donationlib.1.0.0.nupkg.sha512",
+    "C:\\Users\\SBKan\\.nuget\\packages\\nunit\\4.6.1\\nunit.4.6.1.nupkg.sha512"
+  ],
   "logs": []
 }

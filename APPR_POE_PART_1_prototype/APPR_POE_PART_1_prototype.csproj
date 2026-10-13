@@ -13,4 +13,8 @@
     <Folder Include="wwwroot\App_Data\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="DonationLib" Version="1.0.0" />
+  </ItemGroup>
+
 </Project>

@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\appr_poe_part_1_prototype\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|solutionrelative:pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\appr_poe_part_1_prototype\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|solutionrelative:pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\appr_poe_part_1_prototype\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|solutionrelative:pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\appr_poe_part_1_prototype\\pages\\donate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|solutionrelative:pages\\donate.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\appr_poe_part_1_prototype\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|solutionrelative:pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\appr_poe_part_1_prototype\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\appr_poe_part_1_prototype\\pages\\donate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|solutionrelative:pages\\donate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\appr_poe_part_1_prototype\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\appr_poe_part_1_prototype\\wwwroot\\app_data\\sudodb.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|solutionrelative:wwwroot\\app_data\\sudodb.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|c:\\users\\sbkan\\onedrive\\documents\\source\\repos\\appr_poe_part_1_prototype\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4918ADCD-909D-FB28-15C4-67CFDA3AFFCA}|APPR_POE_PART_1_prototype.csproj|solutionrelative:pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,20 +47,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\About.cshtml",
-              "RelativeDocumentMoniker": "Pages\\About.cshtml",
-              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\About.cshtml",
-              "RelativeToolTip": "Pages\\About.cshtml",
-              "ViewState": "AgIAADsAAAAAAAAAAAAuwGIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-28T21:21:28.502Z",
-              "IsPinned": true,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\Register.cshtml.cs",
+              "RelativeToolTip": "Pages\\Register.cshtml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T21:42:52.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T17:08:12.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\Login.cshtml",
+              "RelativeToolTip": "Pages\\Login.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T17:08:07.357Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Donate.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\Donate.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Donate.cshtml.cs",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\Donate.cshtml.cs",
+              "RelativeToolTip": "Pages\\Donate.cshtml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwC8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T12:45:10.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Donate.cshtml",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\Donate.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Donate.cshtml",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\Donate.cshtml",
+              "RelativeToolTip": "Pages\\Donate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-25T12:45:08.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "sudoDB.txt",
+              "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\wwwroot\\App_Data\\sudoDB.txt",
+              "RelativeDocumentMoniker": "wwwroot\\App_Data\\sudoDB.txt",
+              "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\wwwroot\\App_Data\\sudoDB.txt",
+              "RelativeToolTip": "wwwroot\\App_Data\\sudoDB.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-09-25T12:38:22.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\Contact.cshtml",
               "RelativeDocumentMoniker": "Pages\\Contact.cshtml",
@@ -48,21 +128,19 @@
               "RelativeToolTip": "Pages\\Contact.cshtml",
               "ViewState": "AgIAADsAAAAAAAAAAAAuwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-28T21:22:31.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-28T21:22:31.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-28T21:21:24.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-28T21:21:24.529Z"
             }
           ]
         }

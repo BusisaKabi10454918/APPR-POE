@@ -26,7 +26,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\SBKan\\OneDrive\\Documents\\source\\repos\\APPR_POE_PART_1_prototype\\wwwroot\\Local\\NuGet": {},
+          "C:\\Users\\SBKan\\OneDrive\\Prototype with function\\ReposAPPR_POE_PART_1_prototype\\APPR_POE_PART_1_prototype\\wwwroot\\Local\\NuGet": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ST10130639/b0c1aba3-57cd-4ef3-b95c-75576e8fcb02/_packaging/APPR_ClassL_Library/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
@@ -51,6 +54,12 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "DonationLib": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -70,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
