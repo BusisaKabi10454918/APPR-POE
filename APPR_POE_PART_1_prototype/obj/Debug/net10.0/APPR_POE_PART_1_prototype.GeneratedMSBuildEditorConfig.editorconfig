@@ -1,15 +1,23 @@
 is_global = true
 build_property.TargetFramework = net10.0
-build_property.TargetFrameworkIdentifier = .NETCoreApp
-build_property.TargetFrameworkVersion = v10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property.EntryPointFilePath = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.EntryPointFilePath = 
 build_property.RootNamespace = APPR_POE_PART_1_prototype
 build_property.RootNamespace = APPR_POE_PART_1_prototype
 build_property.ProjectDir = C:\Users\SBKan\OneDrive\Documents\source\repos\APPR_POE_PART_1_prototype\
@@ -57,6 +65,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/SBKan/OneDrive/Documents/source/repos/APPR_POE_PART_1_prototype/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SBKan/OneDrive/Documents/source/repos/APPR_POE_PART_1_prototype/Pages/Volunteer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm9sdW50ZWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/SBKan/OneDrive/Documents/source/repos/APPR_POE_PART_1_prototype/Pages/_ViewImports.cshtml]

@@ -1,54 +1,54 @@
+using APPR_POE_PART_1_prototype.Application_Services;
+using APPR_POE_PART_1_prototype.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Http;
 
 namespace APPR_POE_PART_1_prototype.Pages
 {
     public class LoginModel : PageModel
     {
-        public string error_message = string.Empty;
-        public void OnGet()
+        public string validationResult { get; set; } = string.Empty;
+
+        private readonly GOGAppDBContext _context;
+        private readonly VerificationServices _verificationServices;
+
+        public LoginModel(VerificationServices verifyer)
         {
+            _verificationServices = verifyer;
         }
 
-        public string attemptLogin(string cred, string password)
-        {
-            bool loginSuccess = false;
+        [BindProperty]
+        public string Credential { get; set; }
 
-            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "App_Data", "sudoDB.txt");
-
-            if (System.IO.File.Exists(path))
-            {
-                using (StreamReader reader = new StreamReader(path))
-                {
-                    string content = reader.ReadToEnd();
-
-                    if (content.Contains(cred) && content.Contains(password))
-                    {
-                        loginSuccess = true;
-                    }
-                }
-            }
-            
-            if(loginSuccess)
-            {
-                return "Pass";
-            }
-            return "Fail";
-
-        }
+        [BindProperty]
+        public string Password { get; set; }
 
         public void OnPost()
         {
-            string cred = Request.Form["credential"];
-            string password = Request.Form["Password"];
+            string credential = Credential;
+            string password = Password;
 
-            if (attemptLogin(cred, password).Equals("Pass"))
+            if (string.IsNullOrWhiteSpace(credential) || string.IsNullOrWhiteSpace(password))
             {
-                error_message = $"Welcome back, {cred}";
+                validationResult = "VER-LOG-0001:\nPlease enter both email/username and password";
+                return;
+            }
+
+            //Check if the credential is an email, otherwise assume a username
+            validationResult = _verificationServices.attemptLogin(credential, password);
+
+            if (validationResult.Contains("VER-LOG-0000"))
+            {
+                //Successful login. setup session
+                HttpContext.Session.SetString("User", credential);
+                return;
             }
             else
             {
-                error_message = "Incorrect Username or Password.";
+                //Failed login
+                validationResult += "\nLogin failed.\nPlease check your credentials.";
+                return;
             }
         }
     }

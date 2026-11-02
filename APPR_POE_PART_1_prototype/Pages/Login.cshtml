@@ -11,29 +11,29 @@
         <div class="logo">
 
             <a asp-page="/Index">
-                <img src="~/images/GiftofTheGivers_logo-1458481640.png" />
+                <img src="~/images/GiftofTheGivers_logo.png" />
             </a>
 
         </div>
         <div class="nav-links">
             <a asp-page="/Index">Home</a>
             <a asp-page="/About">About Us</a>
-            <a asp-page="/Login">Volunteer</a>
+            <a asp-page="/Volunteer">Volunteer</a>
             <a asp-page="/Donate">Donate</a>
             <a asp-page="/Contact">Contact Us</a>
         </div>
     </nav>
 </head>
-<body class="reg-login-bodies">
-
+<body class="reg-login-bodies" id="login-page">
+    
     <section class="container">
         <form method="post">
             
-            <label for="credential">Email or Username:</label><br />
-            <input type="text" placeholder="Please enter your email or username" name="credential" /><br />
+            <label class="credentials" for="credential">Email or Username:</label><br />
+            <input class="credentials" id="credential" type="text" placeholder="Please enter your email or username" asp-for="Credential" /><br />
 
-            <label for="password">Password:</label><br />
-            <input type="password" placeholder="Please enter your password" name="password" /><br />
+            <label class="credentials" for="password">Password:</label><br />
+            <input class="credentials" id="password" type="password" placeholder="Please enter your password" asp-for="Password" /><br />
     
             <button type="submit">Login</button>
 
@@ -42,10 +42,34 @@
         <p>Don't have an account? <a asp-page="/Register">Register here</a></p>
     </section>
 
-    @{
-        @if (Model.error_message != "Please enter matching passwords")
-        {
-            <p style="color: white">@Model.error_message</p>
-        }
-    }
+    <div id="error-validation" class="validation-popup">
+        <div class="popup-content">
+            <p id="error-message"></p>
+            <button type="button" id="error-close">OK</button>
+        </div>
+    </div>
+
+    <div id="success-validation" class="validation-popup">
+        <div class="popup-content">
+            <p id="success-message"></p>
+            <button type="button" id="success-close">OK</button>
+        </div>
+    </div>
+
+    <script src="~/js/page_validation.js"></script>
+    
 </body>
+@if (!string.IsNullOrEmpty(Model.validationResult))
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const message = @Html.Raw(
+                            System.Text.Json.JsonSerializer.Serialize(Model.validationResult)
+                            );
+
+            const isSuccess = message.includes("VER-LOG-0000:");
+
+            showPopup(message, isSuccess);
+        });
+    </script>
+}

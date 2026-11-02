@@ -4,21 +4,21 @@
     ViewData["Title"] = "Donate";
 }
 <head>
-    <link href="~/css/reg-login-styles.css" rel="stylesheet">
+    <link href="~/css/donation-style.css" rel="stylesheet">
     <link href="~/favicon.ico" rel="icon" type="image/x-icon">
 
     <nav>
         <div class="logo">
 
             <a asp-page="/Index">
-                <img src="~/images/GiftofTheGivers_logo-1458481640.png" />
+                <img src="~/images/GiftofTheGivers_logo.png" />
             </a>
 
         </div>
         <div class="nav-links">
             <a asp-page="/Index">Home</a>
             <a asp-page="/About">About Us</a>
-            <a asp-page="/Login">Volunteer</a>
+            <a asp-page="/Volunteer">Volunteer</a>
             <a asp-page="/Donate">Donate</a>
             <a asp-page="/Contact">Contact Us</a>
         </div>
@@ -28,27 +28,58 @@
     <div class="container">
         <form method="post">
 
-            <input type="radio" name="currency" value="USD" required>(USD) Dollars</input>
-            <input type="radio" name="currency" value="ZAR">(ZAR) Rands</input>
-            <input type="radio" name="currency" value="EUR">(EUR) Euroes</input>
+            <div class="currency-selection">
+                <label class="currency-option">
+                    <input type="radio" name="Currency" value="USD" asp-for="Currency" required />
+                    <span>$</span>
+                </label>
+
+                <label class="currency-option">
+                    <input type="radio" name="Currency" value="EUR" asp-for="Currency"/>
+                    <span>€</span>
+                </label>
+
+                <label class="currency-option">
+                    <input type="radio" name="Currency" value="ZAR" asp-for="Currency"/>
+                    <span>R</span>
+                </label>
+            </div>
 
             <label for="donation-amount">Donation Amount:</label>
-            <input type="number" name="donation-amount" placeholder="Please donate within your means" min="1" required/>
+            <input class="donation-amount" asp-for="DonationAmount" id="DonationAmount" inputmode="decimal" name="DonationAmount" placeholder="Please donate within your means" min="1" required />
 
-            <input type="submit"/>
+            <button type="submit" class="donate-button">Donate</button>
+
+            <script src="~/js/page_validation.js"></script>
         </form>
 
-        @{
-            @if (Model.error_message != "Please enter a valid number")
-            {
-                <p style="color: black">@Model.error_message</p>
-            }
-            else
-            {
-                <p style="color: black">@Model.error_message</p>
-            }
-        }
-    </div>
+        <div id="error-validation" class="validation-popup">
+            <div class="popup-content">
+                <p id="error-message"></p>
+                <button type="button" id="error-close">OK</button>
+            </div>
+        </div>
 
-    
+        <div id="success-validation" class="validation-popup">
+            <div class="popup-content">
+                <p id="success-message"></p>
+                <button type="button" id="success-close">OK</button>
+            </div>
+        </div>
+
+    </div>   
 </body>
+@if (!string.IsNullOrEmpty(Model.validationResult))
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const message = @Html.Raw(
+                            System.Text.Json.JsonSerializer.Serialize(Model.validationResult)
+                            );
+
+            const isSuccess = message.includes("VER-DON-0000:");
+
+            showPopup(message, isSuccess);
+        });
+    </script>
+}

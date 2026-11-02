@@ -3,96 +3,81 @@
 @{
     ViewData["Title"] = "Contact";
 }
-<head>
-    <link href="~/css/styles.css" rel="stylesheet">
-    <link href="~/favicon.ico" rel="icon" type="image/x-icon">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="/favicon.ico" rel="icon" type="image/x-icon">
+</head>
 
-    <nav>
+    <body>
+
+        <nav>
+
         <div class="logo">
-
             <a asp-page="/Index">
-                <img src="~/images/GiftofTheGivers_logo-1458481640.png" />
+                <img src="images/GiftofTheGivers_logo.png" />
             </a>
-
         </div>
+
         <div class="nav-links">
             <a asp-page="/Index">Home</a>
             <a asp-page="/About">About Us</a>
-            <a asp-page="/Login">Volunteer</a>
+            <a asp-page="/Volunteer">Volunteer</a>
             <a asp-page="/Donate">Donate</a>
             <a asp-page="/Contact">Contact Us</a>
         </div>
+
     </nav>
-</head>
-<body>
-    <section class="page_banner"></section>
 
-    <section class="page_content">
+        <section class="page_banner">
+        <img src="images/contact_page_banner.png" />
+    </section>
 
-        <div class="content-container">
+        <section class="contact_section">
 
-            <div class="content_type_A">
-                <img src="~/images/placeholder_content_image.png" />
-            </div>
+        <h1 class="contact-message">Contact Us</h1>
 
-            <div class="content_type_B">
-                <h3>Become a Volunteer</h3>
+        <div class="black-bar"></div>
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-                </p>
-            </div>
+        <p class="contact-message">
+            To complete our mandate of assisting the unfortunate wherever we can.<br>Gift of The Givers relies on the service of volunteers and the generous donations of supporters and partners.<br>
+            By volunteering with us, You could become a part of a huge force for good, assisting communities, supporting the needy and spreading hope where it's needed<br>
+        </p>
 
-        </div>
-
-        <div class="content-container">
-
-            <div class="content_type_A">
-                <h3>Register To Donate</h3>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-                </p>
-            </div>
-
-            <div class="content_type_B">
-                <img src="~/images/placeholder_content_image.png" />
-            </div>
-
-        </div>
-
-        <div class="content-container">
-
-            <div class="content_type_A">
-                <img src="~/images/placeholder_content_image.png" />
-            </div>
-
-            <div class="content_type_B">
-                <h3>Learn more about what we do</h3>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-                </p>
-            </div>
-
-        </div>
-
-        <div class="content-container">
-
-            <div class="content_type_A">
-                <h3>Connect with us</h3>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-                </p>
-            </div>
-
-            <div class="content_type_B">
-                <img src="~/images/placeholder_content_image.png" />
-            </div>
-
-        </div>
+        <p class="contact-message"> If you are inclined to join us. Please<br></p>
 
     </section>
-</body>
-<footer></footer>
+
+        <section class="feature-button">
+        <img class="contact-message" src="images/contact_number.png" />
+    </section>
+        <section class="feature-button">
+        <img class="contact-message" src="images/contact_email.png" />
+    </section>
+        <section class="feature-button">
+        <img class="contact-message" src="images/contact_locationSA.png" />
+    </section>
+        <section class="feature-button">
+        <img class="contact-message" src="images/contact_locationSO.png" />
+    </section>
+        <section class="feature-button">
+        <img class="contact-message" src="images/contact_locationPL.png" />
+    </section>
+        <section class="feature-button">
+        <img class="contact-message" src="images/contact_locationMA.png" />
+    </section>
+        <section class="feature-button">
+        <img class="contact-message" src="images/contact_locationZI.png" />
+    </section>
+        <section class="feature-button">
+        <img class="contact-message" src="images/contact_locationYE.png" />
+    </section>
+        <section class="feature-button">
+        <img class="contact-message" src="images/contact_locationSY.png" />
+    </section>
+    </body>
+</html>
+<footer>
+    <p>&copy; 2023 Gift of The Givers. All rights reserved.</p>
+</footer>

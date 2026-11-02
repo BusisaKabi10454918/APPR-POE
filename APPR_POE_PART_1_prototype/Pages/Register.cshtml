@@ -11,52 +11,93 @@
         <div class="logo">
 
             <a asp-page="/Index">
-                <img src="~/images/GiftofTheGivers_logo-1458481640.png" />
+                <img src="~/images/GiftofTheGivers_logo.png" />
             </a>
 
         </div>
         <div class="nav-links">
             <a asp-page="/Index">Home</a>
             <a asp-page="/About">About Us</a>
-            <a asp-page="/Login">Volunteer</a>
+            <a asp-page="/Volunteer">Volunteer</a>
             <a asp-page="/Donate">Donate</a>
             <a asp-page="/Contact">Contact Us</a>
         </div>
     </nav>
 </head>
-<body class="reg-login-bodies">
+<body class="reg-login-bodies" id="register-page">
     <div class="container">
         <form method="post">
 
-            <label for="firstname">First Name:</label><br />
-            <input type="text" placeholder="Please enter your first name" name="firstname" required /><br />
-
-            <label for="lastname">Last Name:</label><br />
-            <input type="text" placeholder="Please enter your last name" name="lastname" required /><br />
             
-            <label for="email">Email:</label><br />
-            <input type="email" placeholder="Please enter your email" name="email" required /><br />
+            <label class="credentials" for="firstname">First Name:</label><br />
+            <input class="credentials" type="text" id="firstname" placeholder="Please enter your first name" asp-for="FirstName" required /><br />
+            
+            
+            <label class="credentials" for="lastname">Last Name:</label><br />
+            <input class="credentials" type="text" id="lastname" placeholder="Please enter your last name" asp-for="LastName" required /><br />
+            
+            
+            <label class="credentials" for="email">Email:</label><br />
+            <input class="credentials" type="email" id="email" placeholder="Please enter your email" asp-for="Email" required /><br />
 
-            <label for="username">Username:</label><br />
-            <input type="text" placeholder="Please enter a username" name="username" required /><br />
+            <label class="credentials" for="username">Username:</label><br />
+            <input class="credentials" type="text" id="username" placeholder="Please enter a username" asp-for="Username" required /><br />
     
-            <label for="password">Password:</label><br />
-            <input type="password" placeholder="Please enter your password" name="password" required /><br />
+            <label class="credentials" for="password">Password:</label><br />
+            <input class="credentials" type="password" id="password" placeholder="Please enter your password" asp-for="Password" required /><br />
 
-            <label for="confirm-password">Confirm Password:</label><br />
-            <input type="password" placeholder="Please confirm your password" name="confirm-password" required /><br />
+            <label class="credentials" for="confirm-password">Confirm Password:</label><br />
+            <input class="credentials" type="password" id="confirm-password" placeholder="Please confirm your password" asp-for="ConfirmPassword" required /><br />
 
-            <input type="checkbox" name="role" value="volunteer" required>Register as a Volunteer</input>
-            <input type="checkbox" name="role" value="repeat-donor">Register as a repeat donor</input>
+            <div class="role-selection">
+                <label>
+                    <input type="checkbox" id="volunteer" name="RoleSelection" value="volunteer" />
+                    <label for="volunteer">Register as a Volunteer</label>
+                </label>
 
-            <input type="submit" />
+                <label>
+                    <input type="checkbox" id="donor" name="RoleSelection" value="repeat-donor" />
+                    <label for="donor">Register as a Repeat Donor</label>
+                </label>
+
+                <script src="~/js/role_validation.js"></script>
+
+            </div>
+
+            <button type="submit">Register</button>
+
+            <p>Already Registered? <a asp-page="/Login">Login here</a></p>
         </form>
 
-        @{
-            @if (Model.error_message != "Please enter matching passwords")
-                {
-                    <p>@Model.error_message</p>
-                }
-            }
+        <div id="error-validation" class="validation-popup">
+            <div class="popup-content">
+                <p id="error-message"></p>
+                <button type="button" id="error-close">OK</button>
+            </div>
+        </div>
+
+        <div id="success-validation" class="validation-popup">
+            <div class="popup-content">
+                <p id="success-message"></p>
+                <button type="button" id="success-close">OK</button>
+            </div>
+        </div>
+
+        <script src="~/js/page_validation.js"></script>
+        
     </div>
 </body>
+@if (!string.IsNullOrEmpty(Model.validationResult))
+{
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const message = @Html.Raw(
+                            System.Text.Json.JsonSerializer.Serialize(Model.validationResult)
+                            );
+
+            const isSuccess = message.includes("VER-REG-0000:");
+
+            showPopup(message, isSuccess);
+        });
+    </script>
+}
