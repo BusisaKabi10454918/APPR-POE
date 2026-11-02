@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../APPR_Tests/APPR_Tests.csproj" />
+  <Project Path="APPR_POE_PART_1_prototype.csproj" />
+</Solution>

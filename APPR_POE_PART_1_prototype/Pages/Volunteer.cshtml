@@ -1,0 +1,59 @@
+﻿@page
+@model APPR_POE_PART_1_prototype.Pages.VolunteerModel
+@{
+	ViewData["Title"] = "Volunteer";
+}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="/favicon.ico" rel="icon" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <nav>
+            <div class="logo">
+                <a asp-page="/Index">
+                    <img src="images/GiftofTheGivers_logo.png" />
+                </a>
+            </div>
+
+            <div class="nav-links">
+                <a asp-page="/Index">Home</a>
+                <a asp-page="/About">About Us</a>
+                <a asp-page="/Volunteer">Volunteer</a>
+                <a asp-page="/Donate">Donate</a>
+                <a asp-page="/Contact">Contact Us</a>
+            </div>
+
+        </nav>
+
+        <section class="page_banner">
+            <img src="images/volunteer_page_banner.png" />
+        </section>
+
+        <section class="volunteer_section">
+
+            <h1 class="volunteer-message">Make A Difference</h1>
+
+            <div class="black-bar"></div>
+    
+            <p class="volunteer-message">
+                To complete our mandate of assisting the unfortunate wherever we can.<br>Gift of The Givers relies on the service of volunteers and the generous donations of supporters and partners.<br>
+                By volunteering with us, You could become a part of a huge force for good, assisting communities, supporting the needy and spreading hope where it's needed<br>
+            </p>
+
+            <p class="volunteer-message"> If you are inclined to join us. Please<br></p>
+            <a id="registerlink" class="volunteer-link" asp-page="/Register">Click Here</a>
+
+		    <p class="volunteer-message"> If you are already registered with us. You may<br /></p>
+            <a id="loginlink" class="volunteer-link" asp-page="/Login">Login Here</a><br>
+
+        </section>
+
+        <section class="quote-section">
+            <img class="volunteer-message" src="images/quote_image.png" />
+        </section>
+    </body>
+</html>
