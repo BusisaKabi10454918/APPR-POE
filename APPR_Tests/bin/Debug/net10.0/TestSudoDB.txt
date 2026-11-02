@@ -1,0 +1,56 @@
+John Doe
+johndoe
+johndoe@example.com
+$2a$11$t0J4IB7.Yu2I6soh2NP66ey3MfQ1CAuSOuJUOlBiXFS6.kSMR6WZa
+volunteer
+
+
+John Doe
+johndoe
+johndoe@example.com
+$2a$11$jDphmNEYOgaESeMgr7HYRuwv1etfAl9jW6g5bt5FPjuk7TMXNtl4y
+volunteer
+
+
+John Doe
+johndoe
+johndoe@example.com
+$2a$11$gmMk3ozAEHsj4xLsl0iImu6ErQe8gmv1bQbDuD8JmhXaww9iRCSha
+volunteer + repeat-donor
+
+
+Thomas Wayne
+TWayne13
+TWayne@WayneCoEnt.us
+$2a$11$QgakS/8rak.2F4tqCJ/.ku6ut1KdyjHX/WzQR7KE8QppE3G27DPp.
+volunteer
+
+
+Thomas Wayne
+TWayne13
+TWayne@WayneCoEnt.us
+$2a$11$cJpP7nhxkUCRbhRvRWcILOEFhRfv0bsbsgV.azVpQtEV4joVRuGXG
+volunteer
+
+
+Thomas Wayne
+TWayne13
+TWayne@WayneCoEnt.us
+$2a$11$wP7bewZ5n0odl65O8lgs8eg1Y9y57bqoNjJ1OYcxT.I03Ys/3ceem
+volunteer
+
+
+John Doe
+johndoe
+johndoe@example.com
+$2a$11$E3LsgriK2vYDACMhRnke1ecTIEwFrsg5SxccHlLhXrIGAYECpxHey
+volunteer
+
+
+John Doe
+johndoe
+johndoe@example.com
+$2a$11$BAxN5XVH/qeN7s/PRsFMiO1rwt2PQjveQ3xSMtWOxpZN57ppHm5hG
+volunteer
+
+
